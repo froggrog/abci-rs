@@ -1,0 +1,20 @@
+[package]
+name = "abci-rs"
+version = "0.1.0"
+authors = ["Anton Zhuravlev <froggrog@hotmail.com>"]
+build = "build.rs"
+
+[dependencies]
+bytes = "0.4.6"
+byteorder = "1.2.2"
+integer-encoding = "1.0.5"
+protobuf = "1.5.1"
+tokio = "0.1.5"
+tokio-io = "0.1.6"
+tokio-service = "0.1.0"
+tokio-proto = "0.1.1"
+futures = "0.1.21"
+
+[build-dependencies]
+protoc = "1.4.1"
+protoc-rust = "1.5"
